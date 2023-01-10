@@ -1,5 +1,6 @@
 
 # Password Generator
+[![Screenshot-2023-01-10-at-19-11-52.png](https://i.postimg.cc/1Xmx35x4/Screenshot-2023-01-10-at-19-11-52.png)](https://postimg.cc/R6DpPmZz)
 
 A configurable random password generator that runs inside your browser.
 
