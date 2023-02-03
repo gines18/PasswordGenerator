@@ -91,13 +91,12 @@ var upperCasedCharacters = [
 var characterLength = 10;
 var choiceArr = [];
 
-
 // Function to prompt user for password options
 function getPasswordOptions() {
   choiceArr = [];
-  characterLength = parseInt(prompt("How many characters do you want your password to be? (10-64 characters"));
-if(isNaN(characterLength) || characterLength < 10 || characterLength > 64) {
-  alert("Character length has to be a number from 10 to 64 digits. Please try again.");
+  characterLength = parseInt(prompt("How many characters do you want your password to be? (8-128 characters"));
+if(isNaN(characterLength) || characterLength < 8 || characterLength > 128) {
+  alert("Character length has to be a number from 8 to 128 digits. Please try again.");
   return false;
 }
 if (confirm("Would you like lowercase letters in your password?")) {
@@ -117,7 +116,6 @@ return true;
 
 // Function for getting a random element from an array
 function getRandom(arr) {
-
 }
 
 // Function to generate password with user input

@@ -13,7 +13,7 @@ No network is needed for application to work.
 Present a series of prompts for password criteria:
 
 Length of password:
-At least 10 characters but no more than 64.
+At least 8 characters but no more than 128.
 
 Character types:
 Lowercase, Uppercase, Numeric, Special characters ($@%&*, etc.)
